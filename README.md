@@ -1,4 +1,4 @@
-# How to Add Blazor Scheduler to the Blazor Server App?
+# How to a Add Blazor Scheduler to the Blazor Server App?
 A quick start Blazor Server App Project that helps you to learn how easily you can configure and add the Blazor Scheduler of Syncfusion to it. You will also learn how to bind a list of appointment data to the Scheduler dataSource as well as how to bind data from a remote service URL.
 
 ## Pre-requisites
