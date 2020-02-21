@@ -1,0 +1,40 @@
+﻿@page "/"
+@using Syncfusion.EJ2.Blazor.Schedule
+
+<EjsSchedule TValue="AppointmentData" SelectedDate="@(new DateTime(2020, 1, 10))" CurrentView="View.Month">
+    <ScheduleViews>
+        <ScheduleView Option="View.Day" StartHour="07:00" EndHour="15:00"></ScheduleView>
+        <ScheduleView Option="View.Week" StartHour="10:00" EndHour="18:00"></ScheduleView>
+        <ScheduleView Option="View.Month" ShowWeekend="false"></ScheduleView>
+    </ScheduleViews>
+    <ScheduleEventSettings DataSource="@DataSource">
+        <ScheduleField Id="EventID">
+            <FieldSubject Name="EventSubject"></FieldSubject>
+            <FieldStartTime Name="EventStart"></FieldStartTime>
+            <FieldEndTime Name="EventEnd"></FieldEndTime>
+        </ScheduleField>
+    </ScheduleEventSettings>
+
+    @*For remote data, uncomment and make use of the below ScheduleEventSettings and remove the previous ScheduleEventSettings*@
+    @*<ScheduleEventSettings TValue="AppointmentData">
+        <EjsDataManager Url="https://js.syncfusion.com/demos/ejservices/api/Schedule/LoadData" Adaptor="@Syncfusion.EJ2.Blazor.Adaptors.WebApiAdaptor">
+        </EjsDataManager>
+    </ScheduleEventSettings>*@
+    
+</EjsSchedule>
+
+@code{
+    List<AppointmentData> DataSource = new List<AppointmentData>
+    {
+        new AppointmentData { EventID = 1, EventSubject = "Paris", EventStart = new DateTime(2020, 1, 10, 10, 0, 0) , EventEnd = new DateTime(2020, 1, 10, 12, 0, 0) },
+        new AppointmentData { EventID = 2, EventSubject = "Germany", EventStart = new DateTime(2020, 1, 13, 10, 0, 0) , EventEnd = new DateTime(2020, 1, 13, 12, 0, 0) }
+    };
+    public class AppointmentData
+    {
+        @*Change the below field names to default field name values like Id, Subject, StartTime and EndTime, while binding the above remote url service to the Scheduler*@
+        public int EventID { get; set; }
+        public string EventSubject { get; set; }
+        public DateTime EventStart { get; set; }
+        public DateTime EventEnd { get; set; }
+    }
+}
