@@ -4,7 +4,7 @@ A quick start Blazor Server App Project that helps you to learn how easily you c
 ## Pre-requisites
 To run this project, you need to install the following pre-requisites in your machine.
 * Visual Studio Code
-* .NET Core SDK 3.1.1
+* .NET Core SDK 3.1.2
 
 ## How to run this application?
 To run this application, you need to first clone or download this `getting-started-with-blazor-scheduler` repository and then open it in  Visual Studio Code. Now, open the `Integrated Terminal` in VS Code and run the following command to build and run this project.
