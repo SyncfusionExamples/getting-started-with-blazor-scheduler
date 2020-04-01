@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy; 
+using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using my_blazor_scheduler.Data;
-using Syncfusion.EJ2.Blazor;
+using Syncfusion.Blazor;
 
 namespace my_blazor_scheduler
 {
@@ -29,16 +29,14 @@ namespace my_blazor_scheduler
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddSingleton<WeatherForecastService>();
             services.AddSyncfusionBlazor();
+            services.AddSingleton<WeatherForecastService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // Provide your license key here
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Your License Key");
-            
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MjExMjU2QDMxMzcyZTM0MmUzMGtXZThwR0dYeU5sRVVaV2dqYjNETlBHeEM2Mi9hNDArTHNHa1Q4a3R5NUE9");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
