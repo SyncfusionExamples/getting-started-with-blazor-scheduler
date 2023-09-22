@@ -1,18 +1,17 @@
 # How to Add a Blazor Scheduler to the Blazor Server App?
+
 The [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) is a fully-featured event calendar component that helps users manage their time efficiently with features similar to those of the Outlook calendar. This quick-start Blazor server app project will help you to learn how to configure and add the Blazor Scheduler to it. You will also learn how to bind a list of appointment data to the Scheduler data source and bind data from a remote service URL.
 
-## Pre-requisites
-To run this project, you need to install the following pre-requisites in your machine.
-* Visual Studio Code
-* .NET Core SDK 3.1.2
+## Prerequisites
 
-## How to run this application?
-To run this application, you need to first clone or download this `getting-started-with-blazor-scheduler` repository and then open it in  Visual Studio Code. Now, open the `Integrated Terminal` in VS Code and run the following command to build and run this project.
+* Visual Studio 2022
 
-```
-dotnet watch run
-```
-Navigate to `http://localhost:5000/` or `http://localhost:5001/` in the browser to view the output.
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## Features and Benefits
 
