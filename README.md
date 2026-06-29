@@ -19,7 +19,7 @@ The [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-sched
 The Blazor Scheduler offers a wide variety of view modes: day, week, workweek, month, agenda, month-agenda, and timeline. It allows you to easily configure each view with different, view-specific options. You can also display multiple days, weeks, and months by extending each view mode based on the interval count.
 
 ### Data binding
-Data binds seamlessly with various [local and remote data sources](https://blazor.syncfusion.com/documentation/scheduler/data-binding/?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples): JSON, RESTful services, OData services, and WCF services.
+Data binds seamlessly with various [local and remote data sources](https://blazor.syncfusion.com/documentation/scheduler/data-binding?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples): JSON, RESTful services, OData services, and WCF services.
 
 ### Event handling 
 There is built-in support for better [event handling](https://www.syncfusion.com/blazor-components/blazor-scheduler/scheduler-events?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), such as easier appointment creation and editing using the default event editor or through intuitive drag-and-resize actions. Configure recurring events to repeat on a daily, weekly, monthly, or yearly basis. Change the look and feel of events by customizing their default appearance using templates.
@@ -49,7 +49,7 @@ The modern and trendy UI design of the Blazor Scheduler makes user interactions 
 The real-time appointment data of Outlook and Google Calendar accurately synchronizes with our Blazor Scheduler. Scheduler also supports bidirectional data communication through SignalR.
 
 ## Not sure how to create your first Blazor Scheduler? Our documentation can help.
-* [Getting Started with Blazor Server-Side Scheduler](https://blazor.syncfusion.com/documentation/scheduler/getting-started/?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-scheduler-github-examples)
+* [Getting Started with Blazor Server-Side Scheduler](https://blazor.syncfusion.com/documentation/scheduler/getting-started?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-scheduler-github-examples)
 
 ## Related links
 [Learn More about Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
@@ -57,11 +57,11 @@ The real-time appointment data of Outlook and Google Calendar accurately synchro
 [Pricing](https://www.syncfusion.com/sales/pricing?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
 [Documentation](https://blazor.syncfusion.com/documentation/scheduler/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
 [Online Examples](https://blazor.syncfusion.com/demos/scheduler/default-functionalities?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
-[Community Forums](https://www.syncfusion.com/forums/blazor-components/scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
-[Suggest a feature](https://www.syncfusion.com/feedback/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples)
+[Community Forums](https://www.syncfusion.com/forums/blazor-components?control=scheduler) <br/><br/>
+[Suggest a feature](https://www.syncfusion.com/feedback/blazor-components)
 
 ## About Syncfusion Blazor Components
-Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) library offers over 155 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Scheduler, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), and [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples).
+Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) library offers over 155 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Scheduler, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples),[Pivot Table](https://www.syncfusion.com/blazor-components/blazor-pivot-table?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), [AI Assitview](https://www.syncfusion.com/blazor-components/blazor-ai-assistview?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), and [TreeGrid](https://www.syncfusion.com/blazor-components/blazor-tree-grid?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples).
 
 ## About Syncfusion
 Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 38,000 customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
