@@ -1,6 +1,6 @@
 # How to Add a Blazor Scheduler to the Blazor Server App?
 
-The [Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) is a fully-featured event calendar component that helps users manage their time efficiently with features similar to those of the Outlook calendar. This quick-start Blazor server app project will help you to learn how to configure and add the Blazor Scheduler to it. You will also learn how to bind a list of appointment data to the Scheduler data source and bind data from a remote service URL.
+The [Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) is a fully-featured event calendar component that helps users manage their time efficiently with features similar to those of the Outlook calendar. This quick-start Blazor server app project will help you to learn how to configure and add the Blazor Scheduler to it. You will also learn how to bind a list of appointment data to the Scheduler data source and bind data from a remote service URL.
 
 ## Prerequisites
 
@@ -22,7 +22,7 @@ The Blazor Scheduler offers a wide variety of view modes: day, week, workweek, m
 Data binds seamlessly with various [local and remote data sources](https://blazor.syncfusion.com/documentation/scheduler/data-binding?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples): JSON, RESTful services, OData services, and WCF services.
 
 ### Event handling 
-There is built-in support for better [event handling](https://www.syncfusion.com/blazor-components/blazor-scheduler/scheduler-events?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), such as easier appointment creation and editing using the default event editor or through intuitive drag-and-resize actions. Configure recurring events to repeat on a daily, weekly, monthly, or yearly basis. Change the look and feel of events by customizing their default appearance using templates.
+There is built-in support for better [event handling](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler/scheduler-events?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples), such as easier appointment creation and editing using the default event editor or through intuitive drag-and-resize actions. Configure recurring events to repeat on a daily, weekly, monthly, or yearly basis. Change the look and feel of events by customizing their default appearance using templates.
 
 ### Drag and drop events
 Reschedule appointments easily by dragging them onto the required time slots. You can also see the live time updates on the dragged appointments.
@@ -31,10 +31,10 @@ Reschedule appointments easily by dragging them onto the required time slots. Yo
 Extend a Scheduler event’s time by resizing either its start or end handlers. You can also see the live time updates on the resized appointments.
 
 ### Resource grouping
-Assign resources to events and schedule them. Group appointments based on resources or dates. [Group resources](https://www.syncfusion.com/blazor-components/blazor-scheduler/multiple-resources?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) by date to provide a quick overview of each resource’s availability. You can also set different working days for each resource. A new compact layout for displaying resources on mobile screens brings clear visibility of the events of each resource.
+Assign resources to events and schedule them. Group appointments based on resources or dates. [Group resources](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler/multiple-resources?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) by date to provide a quick overview of each resource’s availability. You can also set different working days for each resource. A new compact layout for displaying resources on mobile screens brings clear visibility of the events of each resource.
 
 ### Timeline scheduling
-[Timeline scheduling](https://www.syncfusion.com/blazor-components/blazor-scheduler/timeline-views?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) plays a major role in the Blazor Scheduler, as it displays resources in rows in a hierarchical tree-like structure with expand and collapse options. Its feature-rich calendar options, compact resource scheduling, and clear event representation allow you to employ it in various real-time applications. You can also display the year, month, and week number text labels on each header row of timeline views with out-of-the-box templates.
+[Timeline scheduling](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler/timeline-views?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) plays a major role in the Blazor Scheduler, as it displays resources in rows in a hierarchical tree-like structure with expand and collapse options. Its feature-rich calendar options, compact resource scheduling, and clear event representation allow you to employ it in various real-time applications. You can also display the year, month, and week number text labels on each header row of timeline views with out-of-the-box templates.
 
 ### Responsive and touch-friendly
 The Blazor Scheduler has a highly responsive layout and a finely optimized design for desktops, touch screens, and smart phones. 
@@ -52,7 +52,7 @@ The real-time appointment data of Outlook and Google Calendar accurately synchro
 * [Getting Started with Blazor Server-Side Scheduler](https://blazor.syncfusion.com/documentation/scheduler/getting-started?utm_medium=listing&utm_source=github-examples&utm_campaign=blazor-scheduler-github-examples)
 
 ## Related links
-[Learn More about Blazor Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
+[Learn More about Blazor Scheduler](https://www.syncfusion.com/scheduler-sdk/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
 [Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
 [Pricing](https://www.syncfusion.com/sales/pricing?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
 [Documentation](https://blazor.syncfusion.com/documentation/scheduler/getting-started?utm_source=github&utm_medium=listing&utm_campaign=blazor-scheduler-github-samples) <br/><br/>
